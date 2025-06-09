@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" class="css" />
+  <title>Kalkulačka</title>
+</head>
+<body>
+  <form id="zoznam">
+    <input id="name" type="text" placeholder="Meno" autocomplete="off" />
+    <input id="number" type="number" placeholder="počet bodov" autocomplete="off" />
+    <button id="button" type="submit">Zadať</button>
+  </form>
+
+  <div class="vystup">
+    <h2>Zoznam študentov</h2>
+    <ul id="hodnotenie"></ul>
+    <div id="error" style="color:red"></div>
+  </div>
+
+  <footer></footer>
+
+  <script src="zoznamStudentov.js"></script>
+</body>
+</html>
