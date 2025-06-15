@@ -1,0 +1,11 @@
+# MacOs
+.DS_Store
+
+#Node.js
+node_modules/
+
+#VS Code
+.vscode/
+
+#Logy
+*.log

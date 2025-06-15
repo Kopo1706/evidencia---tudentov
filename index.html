@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" class="css" />
-  <title>Kalkulačka</title>
+  <title>Zoznam študentov</title>
+  <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
   <form id="zoznam">
@@ -17,10 +17,15 @@
     <h2>Zoznam študentov</h2>
     <ul id="hodnotenie"></ul>
     <div id="error" style="color:red"></div>
+    <div id="najlepsi" style="margin-top: 1em; font-weight: bold;"></div>
+    <div id="priemer" style="margin-top: 1em; font-weight: bold;"></div>
   </div>
 
-  <footer></footer>
+  <div class="nastroje">
+    <button id="vymaz" type="button">Vymazať všetko</button>
+    <button id="triedenie" type="button">Zmeniť triedenie</button>
+  </div>
 
-  <script src="zoznamStudentov.js"></script>
+  <script type="module" src="src/app.js"></script>
 </body>
 </html>
